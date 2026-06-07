@@ -1,15 +1,12 @@
 import customtkinter as ctk
-from components.createNavBar import NavBar
-from dashboardPage.dashboard import DashboardPage
-from historyPage.history import LeaveHistoryPage
-from settingPage.setting import SettingsSystemApp
-from approvePage.approve import ApprovePage
-from profilePage.profile import MyProfilePage
-from overviewPage.overview import OverviewPage
-# สมมติว่าในอนาคตคุณ import หน้าอื่นๆ เข้ามาตรงนี้ เช่น:
-# from historyPage.history import LeaveHistoryPage
+from frontend.components.createNavBar import NavBar
+from frontend.dashboardPage.dashboard import DashboardPage
+from frontend.historyPage.history import LeaveHistoryPage
+from frontend.settingPage.setting import SettingsSystemApp
+from frontend.approvePage.approve import ApprovePage
+from frontend.profilePage.profile import MyProfilePage
+from frontend.overviewPage.overview import OverviewPage
 
-# ตั้งค่าธีมหลักเป็น Dark Mode
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
